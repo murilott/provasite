@@ -28,7 +28,7 @@ li {
 
 section {
     border: solid 1px;
-    margin: 10px;
+    margin: 20px;
     padding: 20px;
 }
 
@@ -39,8 +39,6 @@ section > div, footer {
     /* width: 20rem; */
     /* height: 15rem; */
 }
-
-
 
 img {
     height: auto; 
