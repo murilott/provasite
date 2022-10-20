@@ -1,20 +1,22 @@
 .container {
-    border: solid 1px black;
+    border: solid 1px;
     margin: auto;
     max-width: 960px;
     font-size: large;
 }
 
 header {
-    border: solid 1px black;
+    border: solid 1px;
     margin: 20px;
     padding-left: 15px;
 }
 
 footer {
-    border: solid 1px;
+    /* border: solid 1px; */
+    border-top: 4px dashed ;
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 
 article {
@@ -27,22 +29,23 @@ article {
     padding: 10px;
 }
 
-article > div, img {
+article > div {
     border-left: dotted 4px;
-    /* border: solid 1px; */
     max-width: 60%;
     align-self: center;
     padding: 10px;
 }
 
-ul {
-    /* border: solid 1px; */
-    /* display: flex;
+/* ul {
+    border: solid 1px;
+    display: flex;
     flex-direction: row;
-    list-style: none;  */
-} 
+    list-style: none; 
+}  */
 
 img {
+    border-left: dotted 4px;
     height: auto; 
     max-width: 20%;
+    padding: 10px;
 }
