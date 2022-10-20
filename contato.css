@@ -1,0 +1,43 @@
+.container {
+    border: solid 1px;
+    margin: auto;
+    max-width: 960px;
+    font-size: large;
+}
+
+header {
+    border: solid 1px;
+    margin: 20px;
+    padding-left: 15px;
+}
+
+footer {
+    border: solid 1px;
+    border-top: 4px dashed ;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+section {
+    border: solid 1px;
+    margin: 20px;
+    padding: 20px;
+}
+
+section > div {
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    max-width: 50%;
+}
+
+p {
+    border: 1px solid;
+    /* border-right: dotted 4px; */
+    /* padding: 10px;
+    align-self: center;
+    text-align: center; */
+}
