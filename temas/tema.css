@@ -1,3 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .fundo {
-    background-color: azure;
+    background-color: antiquewhite;
+}
+
+a:link {
+    color: saddlebrown;
+}
+
+a:visited {
+    color: crimson;
+}
+
+a:hover {
+    color: crimson;
+}
+
+.container {
+    background-color: wheat;
+}
+
+.menu-header {
+    background-color: burlywood;
+}
+
+
+.section-fundo {
+    background-color: brown;
+}
+
+.artigo-card {
+    background-color: coral;
+}
+
+.rodape {
+    background-color: silver;
 }

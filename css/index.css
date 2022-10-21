@@ -40,7 +40,6 @@ section {
 
 
 section > div {
-    border: solid 1px;
     display: flex;
     justify-content: center;
 }
